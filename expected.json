@@ -1,0 +1,865 @@
+{
+ "cases": [
+  {
+   "fn": "disc",
+   "args": [
+    "10",
+    "0.2"
+   ],
+   "expect": "The solid disc of 10 kg and 0.2 m radius holds an inertia of 0.2 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "0.2",
+    "100"
+   ],
+   "expect": "The inertia of 0.2 kg m2 at 100 rad/s stores 1000 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "0.2",
+    "100",
+    "5"
+   ],
+   "expect": "Spinning the inertia of 0.2 kg m2 to 100 rad/s against a torque of 5 N m takes 4 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "1000",
+    "2"
+   ],
+   "expect": "Delivering 1000 J over 2 s averages 500 W."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "2315.68",
+    "86.17"
+   ],
+   "expect": "The solid disc of 2315.68 kg and 86.17 m radius holds an inertia of 8597273.34 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "7599.37",
+    "3.35"
+   ],
+   "expect": "The solid disc of 7599.37 kg and 3.35 m radius holds an inertia of 42641.96 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "9915.91",
+    "68.88"
+   ],
+   "expect": "The solid disc of 9915.91 kg and 68.88 m radius holds an inertia of 23522791.41 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "4817.13",
+    "57.22"
+   ],
+   "expect": "The solid disc of 4817.13 kg and 57.22 m radius holds an inertia of 7885951.07 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "9905.3",
+    "12.88"
+   ],
+   "expect": "The solid disc of 9905.3 kg and 12.88 m radius holds an inertia of 821616.9 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "8046.23",
+    "16.88"
+   ],
+   "expect": "The solid disc of 8046.23 kg and 16.88 m radius holds an inertia of 1146323.86 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "2223.37",
+    "47.42"
+   ],
+   "expect": "The solid disc of 2223.37 kg and 47.42 m radius holds an inertia of 2499797.59 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "3421.09",
+    "2.01"
+   ],
+   "expect": "The solid disc of 3421.09 kg and 2.01 m radius holds an inertia of 6910.77 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "4920.16",
+    "32.52"
+   ],
+   "expect": "The solid disc of 4920.16 kg and 32.52 m radius holds an inertia of 2601658.59 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "8853.99",
+    "21.02"
+   ],
+   "expect": "The solid disc of 8853.99 kg and 21.02 m radius holds an inertia of 1956025.24 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "9322.53",
+    "74.09"
+   ],
+   "expect": "The solid disc of 9322.53 kg and 74.09 m radius holds an inertia of 25587212.95 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "4526.53",
+    "17.35"
+   ],
+   "expect": "The solid disc of 4526.53 kg and 17.35 m radius holds an inertia of 681293.69 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "8115.31",
+    "52.9"
+   ],
+   "expect": "The solid disc of 8115.31 kg and 52.9 m radius holds an inertia of 11354982.33 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "4832.99",
+    "68.99"
+   ],
+   "expect": "The solid disc of 4832.99 kg and 68.99 m radius holds an inertia of 11501598.17 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "8773.61",
+    "3.33"
+   ],
+   "expect": "The solid disc of 8773.61 kg and 3.33 m radius holds an inertia of 48644.84 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "5464.36",
+    "32.61"
+   ],
+   "expect": "The solid disc of 5464.36 kg and 32.61 m radius holds an inertia of 2905433.27 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "3160.49",
+    "55.42"
+   ],
+   "expect": "The solid disc of 3160.49 kg and 55.42 m radius holds an inertia of 4853527.2 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "1298.65",
+    "96.93"
+   ],
+   "expect": "The solid disc of 1298.65 kg and 96.93 m radius holds an inertia of 6100684.27 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "6010.08",
+    "44.15"
+   ],
+   "expect": "The solid disc of 6010.08 kg and 44.15 m radius holds an inertia of 5857491.58 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "8647.65",
+    "26.33"
+   ],
+   "expect": "The solid disc of 8647.65 kg and 26.33 m radius holds an inertia of 2997573.4 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "7451.1",
+    "64.9"
+   ],
+   "expect": "The solid disc of 7451.1 kg and 64.9 m radius holds an inertia of 15692053.86 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "393.89",
+    "64.87"
+   ],
+   "expect": "The solid disc of 393.89 kg and 64.87 m radius holds an inertia of 828767.58 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "8686.73",
+    "68.97"
+   ],
+   "expect": "The solid disc of 8686.73 kg and 68.97 m radius holds an inertia of 20660783.14 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "3852.21",
+    "71.38"
+   ],
+   "expect": "The solid disc of 3852.21 kg and 71.38 m radius holds an inertia of 9813706.06 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "disc",
+   "args": [
+    "1367.69",
+    "35.13"
+   ],
+   "expect": "The solid disc of 1367.69 kg and 35.13 m radius holds an inertia of 843944.67 kg m2 by the half-m-r-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "42943.78",
+    "80.98"
+   ],
+   "expect": "The inertia of 42943.78 kg m2 at 80.98 rad/s stores 140807509.96 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "9575.1",
+    "406.26"
+   ],
+   "expect": "The inertia of 9575.1 kg m2 at 406.26 rad/s stores 790171662.99 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "45911.24",
+    "61.65"
+   ],
+   "expect": "The inertia of 45911.24 kg m2 at 61.65 rad/s stores 87247941.44 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "57969.35",
+    "606.24"
+   ],
+   "expect": "The inertia of 57969.35 kg m2 at 606.24 rad/s stores 10652648840.08 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "98671.23",
+    "902.61"
+   ],
+   "expect": "The inertia of 98671.23 kg m2 at 902.61 rad/s stores 40193962948.41 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "7914.85",
+    "20.01"
+   ],
+   "expect": "The inertia of 7914.85 kg m2 at 20.01 rad/s stores 1584553.37 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "3304.63",
+    "945.37"
+   ],
+   "expect": "The inertia of 3304.63 kg m2 at 945.37 rad/s stores 1476714292.96 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "86217.34",
+    "472.86"
+   ],
+   "expect": "The inertia of 86217.34 kg m2 at 472.86 rad/s stores 9638951163.11 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "41543.19",
+    "826.14"
+   ],
+   "expect": "The inertia of 41543.19 kg m2 at 826.14 rad/s stores 14176765211.83 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "99433.17",
+    "526.66"
+   ],
+   "expect": "The inertia of 99433.17 kg m2 at 526.66 rad/s stores 13789926747.3 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "54667.96",
+    "891.94"
+   ],
+   "expect": "The inertia of 54667.96 kg m2 at 891.94 rad/s stores 21745738131.9 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "41953.36",
+    "400.05"
+   ],
+   "expect": "The inertia of 41953.36 kg m2 at 400.05 rad/s stores 3357107919.64 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "41109.99",
+    "895.23"
+   ],
+   "expect": "The inertia of 41109.99 kg m2 at 895.23 rad/s stores 16473528448.68 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "17728.64",
+    "857.26"
+   ],
+   "expect": "The inertia of 17728.64 kg m2 at 857.26 rad/s stores 6514341854.47 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "21934.18",
+    "266.69"
+   ],
+   "expect": "The inertia of 21934.18 kg m2 at 266.69 rad/s stores 780018440.87 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "86326.09",
+    "958.52"
+   ],
+   "expect": "The inertia of 86326.09 kg m2 at 958.52 rad/s stores 39656504707.66 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "66524.86",
+    "630.27"
+   ],
+   "expect": "The inertia of 66524.86 kg m2 at 630.27 rad/s stores 13213176770.52 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "23781.49",
+    "288.11"
+   ],
+   "expect": "The inertia of 23781.49 kg m2 at 288.11 rad/s stores 987019494.76 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "98057.03",
+    "439.84"
+   ],
+   "expect": "The inertia of 98057.03 kg m2 at 439.84 rad/s stores 9485018544.22 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "40572.12",
+    "766.53"
+   ],
+   "expect": "The inertia of 40572.12 kg m2 at 766.53 rad/s stores 11919444588.99 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "62157.58",
+    "930.29"
+   ],
+   "expect": "The inertia of 62157.58 kg m2 at 930.29 rad/s stores 26896811984.05 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "76841.29",
+    "542.38"
+   ],
+   "expect": "The inertia of 76841.29 kg m2 at 542.38 rad/s stores 11302434137.81 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "35680.23",
+    "930.39"
+   ],
+   "expect": "The inertia of 35680.23 kg m2 at 930.39 rad/s stores 15442859396.4 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "45611.04",
+    "462.9"
+   ],
+   "expect": "The inertia of 45611.04 kg m2 at 462.9 rad/s stores 4886684953.78 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "energy",
+   "args": [
+    "69905.19",
+    "264.9"
+   ],
+   "expect": "The inertia of 69905.19 kg m2 at 264.9 rad/s stores 2452693845.87 J by the half-I-omega-squared rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "9323.6",
+    "499.58",
+    "73771.68"
+   ],
+   "expect": "Spinning the inertia of 9323.6 kg m2 to 499.58 rad/s against a torque of 73771.68 N m takes 63.14 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "76808",
+    "132.16",
+    "13514.43"
+   ],
+   "expect": "Spinning the inertia of 76808 kg m2 to 132.16 rad/s against a torque of 13514.43 N m takes 751.12 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "42340.49",
+    "944.59",
+    "15612.53"
+   ],
+   "expect": "Spinning the inertia of 42340.49 kg m2 to 944.59 rad/s against a torque of 15612.53 N m takes 2561.69 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "21341.45",
+    "511.35",
+    "56721.12"
+   ],
+   "expect": "Spinning the inertia of 21341.45 kg m2 to 511.35 rad/s against a torque of 56721.12 N m takes 192.4 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "15157.03",
+    "940.54",
+    "73420.63"
+   ],
+   "expect": "Spinning the inertia of 15157.03 kg m2 to 940.54 rad/s against a torque of 73420.63 N m takes 194.17 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "74394.03",
+    "794.2",
+    "33927.45"
+   ],
+   "expect": "Spinning the inertia of 74394.03 kg m2 to 794.2 rad/s against a torque of 33927.45 N m takes 1741.47 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "20655.6",
+    "336.91",
+    "70450.18"
+   ],
+   "expect": "Spinning the inertia of 20655.6 kg m2 to 336.91 rad/s against a torque of 70450.18 N m takes 98.78 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "11322.05",
+    "946.31",
+    "81011.36"
+   ],
+   "expect": "Spinning the inertia of 11322.05 kg m2 to 946.31 rad/s against a torque of 81011.36 N m takes 132.26 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "20566.97",
+    "389.08",
+    "38973.33"
+   ],
+   "expect": "Spinning the inertia of 20566.97 kg m2 to 389.08 rad/s against a torque of 38973.33 N m takes 205.32 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "14526.8",
+    "301.16",
+    "55275.33"
+   ],
+   "expect": "Spinning the inertia of 14526.8 kg m2 to 301.16 rad/s against a torque of 55275.33 N m takes 79.15 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "50834.97",
+    "415.28",
+    "71296.46"
+   ],
+   "expect": "Spinning the inertia of 50834.97 kg m2 to 415.28 rad/s against a torque of 71296.46 N m takes 296.1 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "47475.52",
+    "981.29",
+    "24012.53"
+   ],
+   "expect": "Spinning the inertia of 47475.52 kg m2 to 981.29 rad/s against a torque of 24012.53 N m takes 1940.12 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "59958.02",
+    "254.54",
+    "25273.84"
+   ],
+   "expect": "Spinning the inertia of 59958.02 kg m2 to 254.54 rad/s against a torque of 25273.84 N m takes 603.85 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "37555.87",
+    "100.68",
+    "90346.02"
+   ],
+   "expect": "Spinning the inertia of 37555.87 kg m2 to 100.68 rad/s against a torque of 90346.02 N m takes 41.85 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "26953.75",
+    "806.19",
+    "68602.43"
+   ],
+   "expect": "Spinning the inertia of 26953.75 kg m2 to 806.19 rad/s against a torque of 68602.43 N m takes 316.75 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "78235.98",
+    "415.65",
+    "475.31"
+   ],
+   "expect": "Spinning the inertia of 78235.98 kg m2 to 415.65 rad/s against a torque of 475.31 N m takes 68415.95 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "58743.95",
+    "395.14",
+    "80791.08"
+   ],
+   "expect": "Spinning the inertia of 58743.95 kg m2 to 395.14 rad/s against a torque of 80791.08 N m takes 287.31 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "40167.53",
+    "214.76",
+    "95979.32"
+   ],
+   "expect": "Spinning the inertia of 40167.53 kg m2 to 214.76 rad/s against a torque of 95979.32 N m takes 89.88 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "23613.53",
+    "149.46",
+    "63880.89"
+   ],
+   "expect": "Spinning the inertia of 23613.53 kg m2 to 149.46 rad/s against a torque of 63880.89 N m takes 55.25 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "spinup",
+   "args": [
+    "52935.13",
+    "907.93",
+    "36185.5"
+   ],
+   "expect": "Spinning the inertia of 52935.13 kg m2 to 907.93 rad/s against a torque of 36185.5 N m takes 1328.19 s by the I-omega-over-torque rule."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "89024786.03",
+    "800938.62"
+   ],
+   "expect": "Delivering 89024786.03 J over 800938.62 s averages 111.15 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "25222837.12",
+    "675835.32"
+   ],
+   "expect": "Delivering 25222837.12 J over 675835.32 s averages 37.32 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "89813814.98",
+    "685101.73"
+   ],
+   "expect": "Delivering 89813814.98 J over 685101.73 s averages 131.1 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "5348159.69",
+    "80864.21"
+   ],
+   "expect": "Delivering 5348159.69 J over 80864.21 s averages 66.14 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "88349457.09",
+    "420279.67"
+   ],
+   "expect": "Delivering 88349457.09 J over 420279.67 s averages 210.22 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "19147532.61",
+    "264729.24"
+   ],
+   "expect": "Delivering 19147532.61 J over 264729.24 s averages 72.33 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "42173916.83",
+    "854307.82"
+   ],
+   "expect": "Delivering 42173916.83 J over 854307.82 s averages 49.37 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "46562893.38",
+    "180820.5"
+   ],
+   "expect": "Delivering 46562893.38 J over 180820.5 s averages 257.51 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "35331108.64",
+    "463843.66"
+   ],
+   "expect": "Delivering 35331108.64 J over 463843.66 s averages 76.17 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "98313596.61",
+    "116350.93"
+   ],
+   "expect": "Delivering 98313596.61 J over 116350.93 s averages 844.97 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "50485172.49",
+    "617009.66"
+   ],
+   "expect": "Delivering 50485172.49 J over 617009.66 s averages 81.82 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "60235176.07",
+    "138489.73"
+   ],
+   "expect": "Delivering 60235176.07 J over 138489.73 s averages 434.94 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "60511125.05",
+    "748980.75"
+   ],
+   "expect": "Delivering 60511125.05 J over 748980.75 s averages 80.79 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "53583222.05",
+    "69534.96"
+   ],
+   "expect": "Delivering 53583222.05 J over 69534.96 s averages 770.59 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "98260551.44",
+    "454265.34"
+   ],
+   "expect": "Delivering 98260551.44 J over 454265.34 s averages 216.31 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "24819073.36",
+    "103825.62"
+   ],
+   "expect": "Delivering 24819073.36 J over 103825.62 s averages 239.05 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "61805562.08",
+    "703529.7"
+   ],
+   "expect": "Delivering 61805562.08 J over 703529.7 s averages 87.85 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "4753758.54",
+    "101524.21"
+   ],
+   "expect": "Delivering 4753758.54 J over 101524.21 s averages 46.82 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "87581287.99",
+    "253659.54"
+   ],
+   "expect": "Delivering 87581287.99 J over 253659.54 s averages 345.27 W."
+  },
+  {
+   "fn": "power",
+   "args": [
+    "46308855.01",
+    "689918.06"
+   ],
+   "expect": "Delivering 46308855.01 J over 689918.06 s averages 67.12 W."
+  }
+ ],
+ "errors": [
+  [
+   "disc",
+   [
+    "0",
+    "0.2"
+   ]
+  ],
+  [
+   "disc",
+   [
+    "10",
+    "0"
+   ]
+  ],
+  [
+   "disc",
+   [
+    "10000.01",
+    "0.2"
+   ]
+  ],
+  [
+   "energy",
+   [
+    "0",
+    "100"
+   ]
+  ],
+  [
+   "energy",
+   [
+    "0.2",
+    "1000.01"
+   ]
+  ],
+  [
+   "energy",
+   [
+    "abc",
+    "100"
+   ]
+  ],
+  [
+   "spinup",
+   [
+    "0.2",
+    "100",
+    "0"
+   ]
+  ],
+  [
+   "spinup",
+   [
+    "0.2",
+    "0",
+    "5"
+   ]
+  ],
+  [
+   "power",
+   [
+    "0",
+    "2"
+   ]
+  ],
+  [
+   "power",
+   [
+    "1000",
+    "0"
+   ]
+  ],
+  [
+   "disc",
+   [
+    "10",
+    "100.01"
+   ]
+  ],
+  [
+   "power",
+   [
+    "100000000.01",
+    "2"
+   ]
+  ]
+ ]
+}
