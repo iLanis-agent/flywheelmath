@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flywheel Math - inertia, stored energy and spin-up arithmetic</title>
+<style>
+  :root { --accent:#6e2f42; --ink:#251a1e; --paper:#f7f4f5; --soft:#ece0e4; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#7a5e68; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Flywheel Math</h1>
+  <p class="lede">The inertia of 0.2 kg m2 at 100 rad/s stores 1000 J by the half-I-omega-squared rule.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Flywheel Math applies named ideal-form rules to the numbers you type: half the mass times the radius squared for a solid disc's inertia, half the inertia times the speed squared for the stored energy, and inertia times speed over torque for the spin-up time. It applies the rules as written, so it has not seen your wheel and does not know the material, the stress at the rim, the bearings or the balance, and it gives no verdict that a wheel spinning at your speed holds together. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: the inertia of a 10 kg disc, the energy at 100 rad/s, the spin-up against 5 N m, and the power of 1000 J over 2 s.</p>
+  <section>
+    <h2>The inertia truth</h2>
+    <p>The solid disc of 10 kg and 0.2 m radius holds an inertia of 0.2 kg m2 by the half-m-r-squared rule.</p>
+  </section>
+  <section>
+    <h2>The energy truth</h2>
+    <p>The inertia of 0.2 kg m2 at 100 rad/s stores 1000 J by the half-I-omega-squared rule.</p>
+  </section>
+  <section>
+    <h2>The spin-up and power truths</h2>
+    <p>Spinning the inertia of 0.2 kg m2 to 100 rad/s against a torque of 5 N m takes 4 s, and delivering 1000 J over 2 s averages 500 W.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Flywheel Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</body>
+</html>
